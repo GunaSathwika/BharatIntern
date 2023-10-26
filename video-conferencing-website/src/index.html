@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Conferencing Website</title>
+  <!-- Include your CSS and JavaScript files here -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Video Conferencing Room</h1>
+    </header>
+    <div class="video-container">
+      <video id="local-video" autoplay muted></video>
+    </div>
+    <div class="video-container">
+      <video id="remote-video" autoplay></video>
+    </div>
+    <div class="chat-box">
+      <div id="chat-messages"></div>
+      <input type="text" id="chat-input" placeholder="Type your message...">
+      <button id="send-button">Send</button>
+    </div>
+    <div class="controls">
+      <button id="mute-audio" class="action-button">Mute Audio</button>
+      <button id="mute-video" class="action-button">Mute Video</button>
+      <button id="end-call" class="
